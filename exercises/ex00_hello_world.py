@@ -1,2 +1,2 @@
 __author__ = "730391530"
-print("Hello, world. My name is Boberta, and I am a lonely fisherman with no friends except for my aloe vera plant who I named Jennifer. She once told me that I should quit my job as a fisherman and become a full-time fish. I initially thought Jennifer was just being silly, but then I realized that my true dream was to become a horse mackeral and explore the beautiful ocean that I have always floated on top of yet never thought to enter. Tomorrow, I will take my first step towards being one with my fishy family by disposing of my nets and diving into the water. Thank you, Jennifer . . .")
+print("Hello, world. My name is Boberta, and I am a lonely fisherman with no friends except for my aloe vera plant whom I named Jennifer.")
