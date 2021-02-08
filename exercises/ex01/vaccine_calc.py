@@ -35,9 +35,8 @@ step_five: int = round(step_four / doses_per_day)
 days_passed: timedelta = timedelta(step_five)
 projected_date: datetime = today + days_passed
 
-string_target_percent: str = str(target_percent)
-string_step_five: str = str(step_five)
-string_projected_date: str = str(projected_date.strftime("%B %d, %Y"))
+targ_per: str = str(target_percent)
+st_five: str = str(step_five)
+proj_date: str = str(projected_date.strftime("%B %d, %Y"))
 
-print("We will reach " + string_target_percent + "% vaccination in " + string_step_five + " days, which falls on " + string_projected_date +".")
-
+print("We will reach " + targ_per + "% vaccination in " + st_five + " days, which falls on " + proj_date + ".")

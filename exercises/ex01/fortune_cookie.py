@@ -16,7 +16,7 @@ from random import randint
 
 print("Your fortune cookie says . . .")
 
-x: int=randint(1,25)
+x: int = randint(1, 25)
 
 a: str = "A monkey with waffles will approach you on Saturday. Do not trust him."
 b: str = "Today, you will see an amazing human . . . when looking in the mirror."
