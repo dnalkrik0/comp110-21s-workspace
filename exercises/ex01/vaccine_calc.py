@@ -26,18 +26,18 @@ doses_administered: int = int(input("Doses administered: "))
 doses_per_day: int = int(input("Doses per day: "))
 target_percent: int = int(input("Target percent vaccinated: "))
 
-step_one: float=(target_percent/100)
-step_two: int=(2*population)
-step_three: int= round(step_one * step_two)
-step_four: int= step_three - doses_administered
-step_five: int= round(step_four/doses_per_day)
+step_one: float = (target_percent / 100)
+step_two: int = (2 * population)
+step_three: int = round(step_one * step_two)
+step_four: int = step_three - doses_administered
+step_five: int = round(step_four / doses_per_day)
 
-days_passed: timedelta=timedelta(step_five)
-projected_date: datetime= today + days_passed
+days_passed: timedelta = timedelta(step_five)
+projected_date: datetime = today + days_passed
 
-string_target_percent: str= str(target_percent)
-string_step_five: str= str(step_five)
-string_projected_date: str= str(projected_date.strftime("%B %d, %Y"))
+string_target_percent: str = str(target_percent)
+string_step_five: str = str(step_five)
+string_projected_date: str = str(projected_date.strftime("%B %d, %Y"))
 
 print("We will reach " + string_target_percent + "% vaccination in " + string_step_five + " days, which falls on " + string_projected_date +".")
 
